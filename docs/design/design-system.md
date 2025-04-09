@@ -12,18 +12,19 @@ This document outlines the design system for the Laws of UX website. It serves a
 4. **Performance**: Optimize for fast loading and smooth interactions
 5. **Maintainability**: Design with future changes and scalability in mind
 
-## Color System
+## Content Strategy
 
-### Primary Colors
-- Primary: `#2563EB` (Blue)
-- Secondary: `#4F46E5` (Indigo)
-- Accent: `#F59E0B` (Amber)
+### Writing Style
+- Clear and concise language
+- Technical accuracy
+- Practical examples
+- Actionable insights
 
-### Neutral Colors
-- Background: `#FFFFFF` (White)
-- Surface: `#F8FAFC` (Light Gray)
-- Text: `#1E293B` (Dark Gray)
-- Muted Text: `#64748B` (Gray)
+### Content Structure
+- Consistent format across law pages
+- Progressive disclosure of information
+- Clear section headings
+- Bullet points for key takeaways
 
 ## Typography
 
