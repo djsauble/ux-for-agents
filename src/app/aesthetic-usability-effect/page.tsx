@@ -1,6 +1,6 @@
 'use client';
 
-import { Container, BackLink, Hero, Title, Category, Content, Section, SectionTitle, Paragraph, Example, ExampleTitle, ExampleDemo } from '@/components/Layout';
+import { Container, BackLink, Hero, Title, Category, Content, Section, SectionTitle, Paragraph, Example, ExampleTitle, ExampleDemo, List } from '@/components/Layout';
 
 export default function AestheticUsabilityEffect() {
   return (
@@ -27,12 +27,12 @@ export default function AestheticUsabilityEffect() {
           <Paragraph>
             In agent interfaces, the Aesthetic-Usability Effect has several important implications:
           </Paragraph>
-          <ul>
+          <List>
             <li>Invest in high-quality visual design</li>
             <li>Use consistent and pleasing color schemes</li>
             <li>Implement smooth animations and transitions</li>
             <li>Pay attention to typography and spacing</li>
-          </ul>
+          </List>
         </Section>
 
         <Example>
@@ -40,12 +40,12 @@ export default function AestheticUsabilityEffect() {
           <Paragraph>
             When presenting agent responses:
           </Paragraph>
-          <ul>
+          <List>
             <li>Use clean, readable typography</li>
             <li>Implement subtle animations for state changes</li>
             <li>Maintain consistent spacing and alignment</li>
             <li>Use appropriate color contrast and hierarchy</li>
-          </ul>
+          </List>
           <ExampleDemo law="aesthetic" />
         </Example>
 
@@ -54,13 +54,13 @@ export default function AestheticUsabilityEffect() {
           <Paragraph>
             When designing agent interfaces, follow these guidelines based on the Aesthetic-Usability Effect:
           </Paragraph>
-          <ul>
+          <List>
             <li>Maintain consistent visual language throughout the interface</li>
             <li>Use appropriate white space and visual hierarchy</li>
             <li>Implement subtle animations for feedback and transitions</li>
             <li>Choose colors that are both pleasing and functional</li>
             <li>Ensure typography is both beautiful and readable</li>
-          </ul>
+          </List>
         </Section>
       </Content>
     </Container>
