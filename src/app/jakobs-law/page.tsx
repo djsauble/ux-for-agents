@@ -1,6 +1,6 @@
 'use client';
 
-import { Container, BackLink, Hero, Title, Category, Content, Section, SectionTitle, Paragraph, Example, ExampleTitle, ExampleDemo } from '@/components/Layout';
+import { Container, BackLink, Hero, Title, Category, Content, Section, SectionTitle, Paragraph, Example, ExampleTitle, ExampleDemo, List } from '@/components/Layout';
 
 export default function JakobsLaw() {
   return (
@@ -27,12 +27,12 @@ export default function JakobsLaw() {
           <Paragraph>
             In agent interfaces, Jakob's Law has several important implications:
           </Paragraph>
-          <ul>
+          <List>
             <li>Follow established interaction patterns for common actions</li>
             <li>Use familiar terminology and iconography</li>
             <li>Maintain consistent navigation and layout patterns</li>
             <li>Leverage users' existing mental models</li>
-          </ul>
+          </List>
         </Section>
 
         <Example>
@@ -40,12 +40,12 @@ export default function JakobsLaw() {
           <Paragraph>
             When designing an agent command interface:
           </Paragraph>
-          <ul>
+          <List>
             <li>Use familiar command patterns (e.g., slash commands)</li>
             <li>Follow common chat interface conventions</li>
             <li>Implement standard keyboard shortcuts</li>
             <li>Use recognizable icons for common actions</li>
-          </ul>
+          </List>
           <ExampleDemo law="jakob" />
         </Example>
 
@@ -54,13 +54,13 @@ export default function JakobsLaw() {
           <Paragraph>
             When designing agent interfaces, follow these guidelines based on Jakob's Law:
           </Paragraph>
-          <ul>
+          <List>
             <li>Study and implement common patterns from popular interfaces</li>
             <li>Use standard terminology and avoid unnecessary jargon</li>
             <li>Maintain consistent interaction patterns across the interface</li>
             <li>Provide clear feedback and error messages in familiar formats</li>
             <li>Consider platform-specific conventions when relevant</li>
-          </ul>
+          </List>
         </Section>
       </Content>
     </Container>

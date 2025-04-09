@@ -1,6 +1,6 @@
 'use client';
 
-import { Container, BackLink, Hero, Title, Category, Content, Section, SectionTitle, Paragraph, Example, ExampleTitle, ExampleDemo } from '@/components/Layout';
+import { Container, BackLink, Hero, Title, Category, Content, Section, SectionTitle, Paragraph, Example, ExampleTitle, ExampleDemo, List } from '@/components/Layout';
 
 export default function HicksLaw() {
   return (
@@ -33,12 +33,12 @@ export default function HicksLaw() {
           <Paragraph>
             In agent interfaces, Hick's Law has several important implications:
           </Paragraph>
-          <ul>
+          <List>
             <li>Break complex decisions into smaller, manageable steps</li>
             <li>Limit the number of options presented at any given time</li>
             <li>Use progressive disclosure to reveal options as needed</li>
             <li>Group related options together to reduce cognitive load</li>
-          </ul>
+          </List>
         </Section>
 
         <Example>
@@ -46,12 +46,12 @@ export default function HicksLaw() {
           <Paragraph>
             When configuring an AI agent, instead of presenting all options at once:
           </Paragraph>
-          <ul>
+          <List>
             <li>Start with basic configuration options</li>
             <li>Provide advanced options in separate sections</li>
             <li>Use wizards or step-by-step processes for complex setups</li>
             <li>Offer recommended defaults for quick setup</li>
-          </ul>
+          </List>
           <ExampleDemo law="hick" />
         </Example>
 
@@ -60,13 +60,13 @@ export default function HicksLaw() {
           <Paragraph>
             When designing agent interfaces, follow these guidelines based on Hick's Law:
           </Paragraph>
-          <ul>
+          <List>
             <li>Limit initial choices to 5-7 options</li>
             <li>Use categorization to group related options</li>
             <li>Implement progressive disclosure for complex features</li>
             <li>Provide clear defaults and recommendations</li>
             <li>Use visual hierarchy to guide attention to important choices</li>
-          </ul>
+          </List>
         </Section>
       </Content>
     </Container>

@@ -1,6 +1,6 @@
 'use client';
 
-import { Container, BackLink, Hero, Title, Category, Content, Section, SectionTitle, Paragraph, Example, ExampleTitle, ExampleDemo } from '@/components/Layout';
+import { Container, BackLink, Hero, Title, Category, Content, Section, SectionTitle, Paragraph, Example, ExampleTitle, ExampleDemo, List } from '@/components/Layout';
 
 export default function MillersLaw() {
   return (
@@ -27,12 +27,12 @@ export default function MillersLaw() {
           <Paragraph>
             In agent interfaces, Miller's Law has several important implications:
           </Paragraph>
-          <ul>
+          <List>
             <li>Limit the number of items presented at once</li>
             <li>Chunk information into meaningful groups</li>
             <li>Provide clear visual hierarchy and organization</li>
             <li>Use progressive disclosure for complex information</li>
-          </ul>
+          </List>
         </Section>
 
         <Example>
@@ -40,12 +40,12 @@ export default function MillersLaw() {
           <Paragraph>
             When displaying agent responses or information:
           </Paragraph>
-          <ul>
+          <List>
             <li>Break long responses into digestible chunks</li>
             <li>Use clear headings and subheadings</li>
             <li>Highlight key points for quick scanning</li>
             <li>Provide options to expand/collapse detailed information</li>
-          </ul>
+          </List>
           <ExampleDemo law="miller" />
         </Example>
 
@@ -54,13 +54,13 @@ export default function MillersLaw() {
           <Paragraph>
             When designing agent interfaces, follow these guidelines based on Miller's Law:
           </Paragraph>
-          <ul>
+          <List>
             <li>Keep menus and navigation items to 5-9 items</li>
             <li>Use meaningful categorization to group related items</li>
             <li>Implement progressive disclosure for complex features</li>
             <li>Provide clear visual hierarchy and organization</li>
             <li>Use consistent patterns for similar types of information</li>
-          </ul>
+          </List>
         </Section>
       </Content>
     </Container>

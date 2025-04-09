@@ -1,6 +1,6 @@
 'use client';
 
-import { Container, BackLink, Hero, Title, Category, Content, Section, SectionTitle, Paragraph, Example, ExampleTitle, ExampleDemo } from '@/components/Layout';
+import { Container, BackLink, Hero, Title, Category, Content, Section, SectionTitle, Paragraph, Example, ExampleTitle, ExampleDemo, List } from '@/components/Layout';
 
 export default function FittsLaw() {
   return (
@@ -30,12 +30,12 @@ export default function FittsLaw() {
           <Paragraph>
             In the context of agent interfaces, Fitt's Law has several important implications:
           </Paragraph>
-          <ul>
+          <List>
             <li>Interactive elements should be appropriately sized for easy selection</li>
             <li>Frequently used controls should be placed in easily accessible locations</li>
             <li>The distance between related controls should be minimized</li>
             <li>Target areas should be large enough to accommodate different input methods</li>
-          </ul>
+          </List>
         </Section>
 
         <Example>
@@ -43,11 +43,11 @@ export default function FittsLaw() {
           <Paragraph>
             Consider a control panel for an AI agent. The most frequently used actions (like "Stop" or "Pause") should be:
           </Paragraph>
-          <ul>
+          <List>
             <li>Larger than less critical controls</li>
             <li>Positioned in easily reachable areas of the interface</li>
             <li>Grouped with related controls to minimize movement distance</li>
-          </ul>
+          </List>
           <ExampleDemo law="fitts" />
         </Example>
 
@@ -56,13 +56,13 @@ export default function FittsLaw() {
           <Paragraph>
             When designing agent interfaces, follow these guidelines based on Fitt's Law:
           </Paragraph>
-          <ul>
+          <List>
             <li>Make interactive elements at least 44x44 pixels for touch interfaces</li>
             <li>Place important controls near the edges of the screen (infinite width)</li>
             <li>Group related controls together to minimize movement distance</li>
             <li>Consider the size of interactive elements relative to their importance</li>
             <li>Account for different input methods (mouse, touch, voice)</li>
-          </ul>
+          </List>
         </Section>
       </Content>
     </Container>

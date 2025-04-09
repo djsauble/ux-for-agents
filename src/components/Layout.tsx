@@ -79,4 +79,15 @@ export const ExampleTitle = styled.h3`
 
 export const ExampleDemo = styled(LawDemo)`
   margin: 1rem 0;
+`;
+
+export const List = styled.ul`
+  color: #34495e;
+  line-height: 1.6;
+  margin: 0 0 1.5rem 1.5rem;
+  padding: 0;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
 `; 
