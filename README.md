@@ -43,4 +43,39 @@ The `docs/` directory contains all design-related documentation that agents shou
 
 ## Getting Started
 
-[Instructions for setting up the development environment will be added here] 
+This project is built with Next.js and uses TypeScript for type safety. Follow these steps to set up your development environment:
+
+### Prerequisites
+
+- Node.js (v18 or later)
+- npm (v9 or later)
+- Git
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/laws-of-ux-for-agents.git
+   cd laws-of-ux-for-agents
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+The application will be available at `http://localhost:3000`.
+
+### Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the application for production
+- `npm run start` - Start the production server
+- `npm run lint` - Run ESLint to check for code quality issues
+
+For more detailed information about the project architecture and design system, please refer to the documentation in the `docs/` directory. 
